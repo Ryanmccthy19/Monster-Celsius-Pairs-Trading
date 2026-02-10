@@ -1,1 +1,1 @@
-# Monster-Celcius-Pairs-Trading
+# Monster-Celsius-Pairs-Trading
