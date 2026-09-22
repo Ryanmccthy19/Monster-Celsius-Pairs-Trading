@@ -77,7 +77,6 @@ for i in range(BETA_WINDOW, len(rets)):
     X_win = sm.add_constant(x_win)
     model_win = sm.OLS(y_win, X_win).fit()
 
-    # x_win.name should be "STZ"
     rolling_beta.iat[i] = model_win.params[x_win.name]
 
 # Use yesterday's beta for today's trading
