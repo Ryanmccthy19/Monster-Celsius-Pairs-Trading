@@ -83,7 +83,3 @@ Potential improvements include testing additional stock pairs, adding out-of-sam
 ## Technologies
 
 **Python:** Pandas, NumPy, Matplotlib, Statsmodels, yfinance
-
-## Disclaimer
-
-This project is for educational and research purposes only and does not constitute financial advice.
