@@ -68,14 +68,6 @@ Net performance includes a simple transaction-cost model of 5 basis points per l
 
 Although the strategy generated a positive return, its low Sharpe ratio and relatively large drawdown indicate weak risk-adjusted performance. Transaction costs further reduced the strategy's returns.
 
-The project demonstrates the importance of:
-
-* Distinguishing **correlation from cointegration**
-* Testing assumptions behind mean-reversion strategies
-* Avoiding look-ahead bias in backtesting
-* Accounting for transaction costs
-* Evaluating strategies using risk-adjusted performance
-
 ## Future Improvements
 
 Potential improvements include testing additional stock pairs, adding out-of-sample testing, experimenting with different rolling windows and trading thresholds, and comparing the return-based hedge ratio with a traditional cointegration-based price spread.
